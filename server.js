@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 const {
-    PORT = 4000,
+    PORT = 4002,
     KUNNA_URL,
     TOKEN,
     TIME_START,
